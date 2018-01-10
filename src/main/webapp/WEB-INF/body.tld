@@ -1,0 +1,10 @@
+<taglib>
+   <tlib-version>1.2</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   <short-name>Body TLD</short-name>
+   <tag>
+      <name>BodyName</name> <!-- this is used as Body in body:Body -->
+      <tag-class>com.in28minutes.tag.BodyTag</tag-class>
+      <body-content>scriptless</body-content> <!-- We use Scriptless in TLD -->
+   </tag>
+</taglib>

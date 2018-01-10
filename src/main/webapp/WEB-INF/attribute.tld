@@ -1,0 +1,14 @@
+<taglib>
+   <tlib-version>1.2</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   <short-name>Attribute TLD</short-name>
+   <tag>
+      <name>AttributeName</name> <!-- this is used as Body in body:Body -->
+      <tag-class>com.in28minutes.tag.AttributeTag</tag-class>
+       <body-content>scriptless</body-content>
+      
+      <attribute>
+         <name>message</name>
+      </attribute>
+   </tag>
+</taglib>
