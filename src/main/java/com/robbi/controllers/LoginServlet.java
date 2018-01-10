@@ -1,4 +1,4 @@
-package com.in28minutes.springmvc.login;
+package com.robbi.controllers;
 
 import java.io.IOException;
 
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.in28minutes.jee.LoginService;
+import com.robbi.jee.LoginService;
 
 /**
  * Old way of doing things

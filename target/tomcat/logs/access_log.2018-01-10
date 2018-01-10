@@ -33,3 +33,8 @@
 0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:02:00 -0500] "GET /spring-mvc/bodytag HTTP/1.1" 500 3973 http-bio-8080-exec-1 342
 0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:04:05 -0500] "GET /spring-mvc/bodytag HTTP/1.1" 200 203 http-bio-8080-exec-1 874
 0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:21:41 -0500] "GET /spring-mvc/attributetag HTTP/1.1" 500 4019 http-bio-8080-exec-1 327
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:22:47 -0500] "GET /spring-mvc/attributetag HTTP/1.1" 200 144 http-bio-8080-exec-1 854
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:34:48 -0500] "GET /spring-mvc/hellotag HTTP/1.1" 404 949 http-bio-8080-exec-1 45
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:35:04 -0500] "GET /spring-mvc/bodytag HTTP/1.1" 404 949 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:36:05 -0500] "GET /spring-mvc/bodytag HTTP/1.1" 200 203 http-bio-8080-exec-1 859
+0:0:0:0:0:0:0:1 - - [10/Jan/2018:18:36:14 -0500] "GET /spring-mvc/attributetag HTTP/1.1" 200 144 http-bio-8080-exec-3 140

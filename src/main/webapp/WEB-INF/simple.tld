@@ -5,7 +5,7 @@
 	<tag>
 		<description>worst use of a custom tag</description>
 		<name>simpleName</name>
-		<tag-class>com.in28minutes.tag.SimpleTag</tag-class>
+		<tag-class>com.robbi.tag.SimpleTag</tag-class>
 		<body-content>empty</body-content>
 	</tag>
 </taglib>

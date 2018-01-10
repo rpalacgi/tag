@@ -1,4 +1,4 @@
-package com.in28minutes.springmvc.login;
+package com.robbi.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
