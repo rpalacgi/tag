@@ -1,6 +1,7 @@
 package com.robbi.controllers;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -34,5 +35,11 @@ public class TagController {
 	@RequestMapping(value = "/print", method = RequestMethod.GET)
 	public String showPrintRecordTag() {
 		return "printRecordTag";
+	}
+	
+	@RequestMapping(value = "/tagfile", method = RequestMethod.GET)
+	public String showTagFile(Model model) {
+		model.addAttribute("email", "hi@hi.com");
+		return "tagFile";
 	}
 }
