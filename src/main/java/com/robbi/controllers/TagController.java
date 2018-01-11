@@ -25,4 +25,14 @@ public class TagController {
 	public String showAttributeTag() {
 		return "attributeTag";
 	}
+	
+	@RequestMapping(value = "/cubetag", method = RequestMethod.GET)
+	public String showCubeTag() {
+		return "cubeTag";
+	}
+	
+	@RequestMapping(value = "/print", method = RequestMethod.GET)
+	public String showPrintRecordTag() {
+		return "printRecordTag";
+	}
 }
